@@ -1,0 +1,64 @@
+/*I used sccs more u can find sass-lang.com*/
+
+/* line 1, style.scss */
+.header {
+  background-color: #fff;
+  min-height: 50px;
+  border-bottom: 10px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  z-index: 10; }
+
+/* line 10, style.scss */
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+/* line 15, style.scss */
+.nav-list-item {
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: black;
+  list-style: none; }
+
+/* line 22, style.scss */
+.content {
+  padding: 10px; }
+
+/* line 26, style.scss */
+.section-button {
+  margin: 0 auto;
+  color: red;
+  display: block; }
+
+/* line 32, style.scss */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+/* line 38, style.scss */
+.spacer {
+  height: 30px; }
+
+@media only screen and (max-width: 600px) {
+  /* line 43, style.scss */
+  .section_title_title {
+    font-size: 30px;
+    font-style: bolder; }
+
+  /* line 48, style.scss */
+  .nav-list-item {
+    font-size: 10px;
+    margin-right: 8px;
+    margin-top: 5px; } }
+
+/*# sourceMappingURL=style.css.map */
